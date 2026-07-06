@@ -1330,7 +1330,7 @@ export default function PortfolioHome() {
                         value={formData.name}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg text-base text-white focus:outline-none focus:border-2 focus:border-emerald font-sans placeholder:text-white/30 transition-all"
-                        placeholder="John Doe"
+                        placeholder="Sarah Ali"
                       />
                     </div>
 
@@ -1346,7 +1346,7 @@ export default function PortfolioHome() {
                         value={formData.email}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg text-base text-white focus:outline-none focus:border-2 focus:border-emerald font-sans placeholder:text-white/30 transition-all"
-                        placeholder="john@domain.com"
+                        placeholder="sarah@company.com"
                       />
                     </div>
                   </div>
@@ -1363,7 +1363,7 @@ export default function PortfolioHome() {
                       value={formData.message}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg text-base text-white focus:outline-none focus:border-2 focus:border-emerald font-sans resize-none placeholder:text-white/30 transition-all"
-                      placeholder="Specify project targets, timelines, or roles..."
+                      placeholder="Let's discuss an AI integration project for our mobile app..."
                     />
                   </div>
 
