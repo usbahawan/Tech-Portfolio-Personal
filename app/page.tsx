@@ -192,6 +192,11 @@ export default function PortfolioHome() {
                 Usbah<br />Saleem
               </h1>
 
+              {/* Subtitle */}
+              <p className="font-sans text-sm md:text-base text-ink/60 tracking-wide">
+                Islamabad, Pakistan &middot; Open to remote &amp; hybrid opportunities
+              </p>
+
               {/* Divider — tighter on mobile */}
               <div className="flex items-center gap-4 my-4 md:my-8">
                 <div className="w-12 md:w-24 h-px bg-transparent"></div>
@@ -200,7 +205,7 @@ export default function PortfolioHome() {
 
               {/* Bio — smaller text on mobile for readability */}
               <p className="font-sans text-ink/70 text-sm sm:text-base md:text-base leading-relaxed mb-6 md:mb-8 max-w-xl">
-                <span className="text-emerald font-semibold">Mobile App Developer (Flutter)</span> and Cross-Platform Engineer building <span className="text-emerald font-semibold">production-grade</span> Android and iOS applications with client-side AI integration. I work across the full mobile development lifecycle — state management (Bloc, Riverpod, Provider), REST API architecture, Firebase and Supabase backends, real-time data synchronization, and <span className="text-emerald font-semibold">on-device machine learning</span> using TensorFlow Lite and PyTorch. I&apos;ve shipped <span className="text-emerald font-semibold">5+ cross-platform applications</span> spanning social networking, e-commerce, computer vision, and productivity tools, and I bring hands-on Agile/Scrum experience from an AI engineering internship. I&apos;m also comfortable across the web stack (React, Next.js, Node.js) when a project calls for it.
+                <span className="text-emerald font-semibold">Mobile App Developer (Flutter)</span> and Cross-Platform Engineer building <span className="text-emerald font-semibold">production-grade</span> Android and iOS applications with client-side AI integration. I work across the full mobile development lifecycle, including state management (Bloc, Riverpod, Provider), REST API architecture, Firebase and Supabase backends, real-time data synchronization, and <span className="text-emerald font-semibold">on-device machine learning</span> using TensorFlow Lite and PyTorch. I&apos;ve shipped <span className="text-emerald font-semibold">5+ cross-platform applications</span> spanning social networking, e-commerce, computer vision, and productivity tools, and I bring hands-on Agile/Scrum experience from an AI engineering internship. I&apos;m also comfortable across the web stack (React, Next.js, Node.js) when a project calls for it.
               </p>
 
               {/* Buttons — stack on mobile, row on sm+ */}
