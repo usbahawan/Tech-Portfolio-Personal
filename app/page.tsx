@@ -2,12 +2,12 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
-import { 
-  Mail, 
-  MapPin, 
-  Check, 
-  Send, 
-  Briefcase, 
+import {
+  Mail,
+  MapPin,
+  Check,
+  Send,
+  Briefcase,
   Award,
   Terminal,
   Layers,
@@ -152,8 +152,8 @@ export default function PortfolioHome() {
   // Animation constants for Framer Motion
   const sectionVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
       transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }
     }
@@ -161,7 +161,7 @@ export default function PortfolioHome() {
 
   return (
     <div className="flex-1 bg-paper text-ink min-h-screen flex flex-col font-sans selection:bg-emerald selection:text-paper bg-grid relative z-0">
-      
+
       <Navbar />
       {/* 2. Hero Section — mobile-first split screen */}
       <section id="hero" className="relative w-full flex flex-col border-b border-ink/10">
@@ -248,7 +248,7 @@ export default function PortfolioHome() {
             </h3>
             <p className="text-base text-ink/60 font-sans mt-3 uppercase tracking-wider">Purpose Architectures</p>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
             {/* Category 1 */}
             <div className="bg-white border border-ink/5 rounded-2xl p-6 md:p-8 flex flex-col justify-between hover:shadow-xl hover:shadow-ink/5 hover:-translate-y-1 transition-all duration-300 group">
@@ -413,7 +413,7 @@ export default function PortfolioHome() {
             <p className="text-base text-ink/60 font-sans mt-3 uppercase tracking-wider">Production Case Studies & Systems</p>
           </div>
         </div>
-        
+
         {/* Project 1: Zync (Light paper theme) */}
         <div className="relative py-24 md:py-32 border-b border-ink/10 bg-paper transition-colors overflow-hidden">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[35vw] font-display font-bold text-ink/[0.03] .03] pointer-events-none select-none leading-none z-0">
@@ -421,7 +421,7 @@ export default function PortfolioHome() {
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -431,7 +431,7 @@ export default function PortfolioHome() {
               <span className="text-[10px] font-sans text-ochre font-bold uppercase tracking-widest bg-ochre/10 px-2 py-1 rounded">
                 Project 01
               </span>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-ink tracking-tight font-normal">
                 Zync
               </h3>
@@ -489,7 +489,7 @@ export default function PortfolioHome() {
             02
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
-            
+
             {/* Interactive Phone simulator (on left for alternating visual rhythm) */}
             <div className="md:col-span-5 flex justify-center order-last md:order-first">
               <PhoneFrame appName="Planora">
@@ -498,7 +498,7 @@ export default function PortfolioHome() {
             </div>
 
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -514,7 +514,7 @@ export default function PortfolioHome() {
                   <span>4-Role Enterprise System</span>
                 </span>
               </div>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-white tracking-tight font-normal">
                 Planora
               </h3>
@@ -566,7 +566,7 @@ export default function PortfolioHome() {
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -576,7 +576,7 @@ export default function PortfolioHome() {
               <span className="text-[10px] font-sans text-ochre font-bold uppercase tracking-widest bg-ochre/10 px-2 py-1 rounded">
                 Project 03
               </span>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-ink tracking-tight font-normal">
                 AttendAI
               </h3>
@@ -634,7 +634,7 @@ export default function PortfolioHome() {
             04
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
-            
+
             {/* Interactive Phone simulator */}
             <div className="md:col-span-5 flex justify-center order-last md:order-first">
               <PhoneFrame appName="EventGo">
@@ -643,7 +643,7 @@ export default function PortfolioHome() {
             </div>
 
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -653,7 +653,7 @@ export default function PortfolioHome() {
               <span className="text-[10px] font-sans text-ochre font-bold uppercase tracking-widest bg-ochre/10 px-2 py-1 rounded">
                 Project 04
               </span>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-white tracking-tight font-normal">
                 EventGo
               </h3>
@@ -705,7 +705,7 @@ export default function PortfolioHome() {
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -715,7 +715,7 @@ export default function PortfolioHome() {
               <span className="text-[10px] font-sans text-ochre font-bold uppercase tracking-widest bg-ochre/10 px-2 py-1 rounded">
                 Project 05
               </span>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-ink tracking-tight font-normal">
                 FocusFlow
               </h3>
@@ -773,7 +773,7 @@ export default function PortfolioHome() {
             06
           </div>
           <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-12 gap-12 md:gap-16 items-center relative z-10">
-            
+
             {/* Interactive Phone simulator (on left for alternating visual rhythm) */}
             <div className="md:col-span-5 flex justify-center order-last md:order-first">
               <PhoneFrame appName="ShopEase">
@@ -782,7 +782,7 @@ export default function PortfolioHome() {
             </div>
 
             {/* Project Details */}
-            <motion.div 
+            <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
@@ -792,7 +792,7 @@ export default function PortfolioHome() {
               <span className="text-[10px] font-sans text-ochre font-bold uppercase tracking-widest bg-ochre/10 px-2 py-1 rounded">
                 Project 06
               </span>
-              
+
               <h3 className="font-display text-4xl md:text-6xl leading-none text-white tracking-tight font-normal">
                 ShopEase
               </h3>
@@ -866,7 +866,7 @@ export default function PortfolioHome() {
         {/* Gems Grid */}
         <div className="py-12 md:py-16 px-8 md:px-16 lg:px-24 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
+
             {/* Gem 1: EventSight AI */}
             <div className="bg-paper border border-ink/10 hover:border-emerald/50 p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-emerald/5 group flex flex-col justify-between">
               <div>
@@ -874,9 +874,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-emerald/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Eye className="w-6 h-6 text-emerald group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/EventSight-AI-CV-Project" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/EventSight-AI-CV-Project"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-ink/40 hover:text-emerald transition-colors"
                     aria-label="View on GitHub"
@@ -910,9 +910,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Sparkles className="w-6 h-6 text-white group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/SmartPosterScanner-ComputerVision" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/SmartPosterScanner-ComputerVision"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-white/40 hover:text-white transition-colors"
                     aria-label="View on GitHub"
@@ -946,9 +946,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-emerald/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Bot className="w-6 h-6 text-emerald group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/AI-Automated-Home-Service-Robot" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/AI-Automated-Home-Service-Robot"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-ink/40 hover:text-emerald transition-colors"
                     aria-label="View on GitHub"
@@ -982,9 +982,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Cpu className="w-6 h-6 text-white group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/OptiMIPS" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/OptiMIPS"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-white/40 hover:text-white transition-colors"
                     aria-label="View on GitHub"
@@ -1018,9 +1018,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-emerald/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Terminal className="w-6 h-6 text-emerald group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/x86-Assembly-Event-Notification-System" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/x86-Assembly-Event-Notification-System"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-ink/40 hover:text-emerald transition-colors"
                     aria-label="View on GitHub"
@@ -1054,9 +1054,9 @@ export default function PortfolioHome() {
                   <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center group-hover:bg-emerald transition-colors">
                     <Database className="w-6 h-6 text-white group-hover:text-white transition-colors" />
                   </div>
-                  <a 
-                    href="https://github.com/usbahawan/Bank-Management-System" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/usbahawan/Bank-Management-System"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-white/40 hover:text-white transition-colors"
                     aria-label="View on GitHub"
@@ -1097,7 +1097,7 @@ export default function PortfolioHome() {
             </h3>
             <p className="text-base text-ink/60 font-sans mt-4 uppercase tracking-wider">Work + Leadership</p>
           </div>
-          
+
           <div className="md:col-span-7 lg:col-span-7">
             {/* Timeline Item 1 — DevHawks */}
             <div className="relative pl-8 md:pl-10 border-l-2 border-ink/20 pb-10 last:pb-0 group">
@@ -1132,7 +1132,7 @@ export default function PortfolioHome() {
                     INTERNSHIP
                   </span>
                   <span className="text-sm md:text-base text-white/70 font-sans font-semibold">
-                    Jun 2026 - Present
+                    Jun 2026
                   </span>
                 </div>
                 <div className="text-sm md:text-base font-sans text-emerald font-bold tracking-wider mb-1">
@@ -1156,7 +1156,7 @@ export default function PortfolioHome() {
                     INTERNSHIP
                   </span>
                   <span className="text-sm md:text-base text-ink/60 font-sans font-semibold">
-                    Jul 2026
+                    Jul 2025
                   </span>
                 </div>
                 <div className="text-sm md:text-base font-sans text-emerald font-bold tracking-wider mb-1">
@@ -1222,7 +1222,7 @@ export default function PortfolioHome() {
             {/* Timeline Item 2 */}
             <div className="relative pl-8 md:pl-10 border-l-2 border-ink/20 pb-10 last:pb-0 group">
               <div className="absolute -left-[5px] top-7 w-3 h-3 bg-emerald/70 group-hover:bg-emerald rounded-full ring-4 ring-emerald/20 group-hover:ring-emerald/30 transition-all duration-300"></div>
-              
+
               <div className="bg-pine hover:bg-pine/90 border border-white/10 rounded-xl p-6 transition-all duration-300 text-white">
                 <div className="flex justify-between items-center mb-3">
                   <span className="inline-block px-2.5 py-1 bg-white/10 text-white text-[11px] font-sans font-bold uppercase tracking-widest rounded-full">
@@ -1247,7 +1247,7 @@ export default function PortfolioHome() {
             {/* Timeline Item 3 */}
             <div className="relative pl-8 md:pl-10 border-l-2 border-ink/20 pb-10 last:pb-0 group">
               <div className="absolute -left-[5px] top-7 w-3 h-3 bg-emerald/40 group-hover:bg-emerald rounded-full ring-4 ring-emerald/20 group-hover:ring-emerald/30 transition-all duration-300"></div>
-              
+
               <div className="bg-white hover:bg-white/80 border border-ink/5 rounded-xl p-6 transition-all duration-300">
                 <div className="flex justify-between items-center mb-3">
                   <span className="inline-block px-2.5 py-1 bg-emerald/10 text-emerald text-[11px] font-sans font-bold uppercase tracking-widest rounded-full">
@@ -1289,8 +1289,8 @@ export default function PortfolioHome() {
               </p>
               <div>
                 <span className="block text-ink/50 text-sm uppercase font-bold tracking-wider mb-2">Email directly</span>
-                <a 
-                  href="mailto:awanusbah@gmail.com" 
+                <a
+                  href="mailto:awanusbah@gmail.com"
                   onClick={handleEmailClick}
                   className="text-emerald hover:underline font-bold text-lg md:text-xl inline-block cursor-pointer"
                 >
@@ -1304,7 +1304,7 @@ export default function PortfolioHome() {
             </div>
           </div>
 
-          <motion.div 
+          <motion.div
             id="contact-form-card"
             className="md:col-span-7 lg:col-span-7"
             animate={shakeForm ? { x: [-14, 14, -10, 10, -6, 6, -3, 3, 0] } : { x: 0 }}
@@ -1312,7 +1312,7 @@ export default function PortfolioHome() {
           >
             <AnimatePresence mode="wait">
               {!formSubmitted ? (
-                <motion.form 
+                <motion.form
                   key="contact-form"
                   onSubmit={handleFormSubmit}
                   className="bg-ink border border-white/10 p-8 md:p-10 rounded-3xl shadow-2xl shadow-ink/10 space-y-6"
@@ -1426,7 +1426,7 @@ export default function PortfolioHome() {
             <span className="font-bold text-white block">USBAH SALEEM</span>
             <span className="text-[10px] text-white/40">Mobile App Developer &amp; AI Integration Engineer</span>
           </div>
-          
+
           <div className="flex space-x-6 text-[10px]">
             <a href="https://github.com/usbahawan" target="_blank" rel="noopener noreferrer" className="hover:text-emerald transition-colors">GitHub</a>
             <a href="https://linkedin.com/in/usbah-saleem-315a0b327/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald transition-colors">LinkedIn</a>
@@ -1434,7 +1434,7 @@ export default function PortfolioHome() {
             <a href="mailto:awanusbah@gmail.com" onClick={handleEmailClick} className="hover:text-emerald transition-colors cursor-pointer">Email</a>
           </div>
         </div>
-        
+
         <div className="border-t border-paper/10 pt-4 flex items-center justify-center max-w-6xl mx-auto text-[9px] text-paper/30">
           <span>&copy; {new Date().getFullYear()} USBAH SALEEM. ALL RIGHTS RESERVED.</span>
         </div>
