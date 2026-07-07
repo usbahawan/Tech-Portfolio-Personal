@@ -44,7 +44,7 @@ Systems & DevOps: Kotlin, Java (OOP), MIPS/x86 Assembly, Git/CI-CD, Agile/Scrum
 12. Bank Management System — Role-based enterprise banking application for Managers, CSRs, and Account Holders with secure transaction logging (Java, OOP Design, SQL Database, Desktop Architecture).
 
 --- TIMELINE / EXPERIENCE ---
-1. COMSATS University Islamabad — Undergraduate Research Assistant — Mobile Application Development (Jul 2026 - Present). Conducting faculty-supervised research on mobile application development, with a paper in preparation. Focus: [Title/focus], Supervisor: [Supervisor name].
+1. COMSATS University Islamabad — Undergraduate Research Assistant | Mobile App Development (Jul 2026 - Present). Conducting faculty-supervised research on mobile application development, with a paper in preparation.
 2. DevHawks (Private) Limited — Junior Mobile Application Engineer Intern (Jul 2026). Selected to design, develop, and test features for cross-platform mobile apps during an 8-week internship.
 3. Safex Solutions — Website Development Intern (Jun 2026 - Present). Contributing to live web projects with modern web technologies in a hybrid environment.
 4. FlyRank AI — Backend AI Engineering Intern (Jul 2026). Selected for the Backend AI Engineering track focused on systems supporting AI-driven products.

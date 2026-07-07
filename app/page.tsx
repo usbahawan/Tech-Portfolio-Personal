@@ -1115,26 +1115,12 @@ export default function PortfolioHome() {
                   COMSATS UNIVERSITY ISLAMABAD
                 </div>
                 <h4 className="font-display font-semibold text-xl md:text-2xl text-white mb-3">
-                  Undergraduate Research Assistant &mdash; Mobile Application Development
+                  Undergraduate Research Assistant | Mobile App Development
                 </h4>
-                <div className="text-base md:text-lg text-white/80 leading-relaxed space-y-4">
+                <div className="text-base md:text-lg text-white/80 leading-relaxed">
                   <p>
                     Conducting faculty-supervised research on mobile application development, with a paper currently in preparation for submission.
                   </p>
-                  <div className="border-t border-white/10 pt-3 text-xs md:text-sm text-white/70 space-y-2">
-                    <div>
-                      <span className="font-bold text-emerald uppercase tracking-wider text-[10px] block mb-0.5">Focus</span>
-                      [Title/focus of the research]
-                    </div>
-                    <div>
-                      <span className="font-bold text-emerald uppercase tracking-wider text-[10px] block mb-0.5">Supervisor</span>
-                      [Supervisor name + institution]
-                    </div>
-                    <div>
-                      <span className="font-bold text-emerald uppercase tracking-wider text-[10px] block mb-0.5">Status</span>
-                      Ongoing
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
