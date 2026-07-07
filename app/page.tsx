@@ -171,7 +171,7 @@ export default function PortfolioHome() {
           {/* Left: Image Area */}
           <div className="w-full md:w-1/2 aspect-[4/3] md:aspect-auto md:min-h-[700px] relative overflow-hidden bg-ink/5 flex items-center justify-center">
             <img
-              src="/portrait.jpg?v=hd4"
+              src="/portrait.jpg?v=hd5"
               alt="Usbah Saleem"
               className="w-full h-full object-cover object-top transition-transform duration-1000 hover:scale-105"
             />
